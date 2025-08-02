@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 
 
+
 namespace CanvasPoints.ViewModels
 {
     public partial class MainWindowViewModel : ViewModelBase

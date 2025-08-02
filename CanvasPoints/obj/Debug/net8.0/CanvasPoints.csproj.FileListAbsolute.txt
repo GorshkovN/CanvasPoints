@@ -73,3 +73,4 @@ D:\njhtyn\CanvasPoints\CanvasPoints\obj\Debug\net8.0\refint\CanvasPoints.dll
 D:\njhtyn\CanvasPoints\CanvasPoints\obj\Debug\net8.0\CanvasPoints.pdb
 D:\njhtyn\CanvasPoints\CanvasPoints\obj\Debug\net8.0\CanvasPoints.genruntimeconfig.cache
 D:\njhtyn\CanvasPoints\CanvasPoints\obj\Debug\net8.0\ref\CanvasPoints.dll
+D:\njhtyn\CanvasPoints\CanvasPoints\obj\Debug\net8.0\CanvasPoints.sourcelink.json

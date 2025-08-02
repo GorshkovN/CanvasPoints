@@ -7,7 +7,8 @@
         x:Class="CanvasPoints.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="CanvasPoints">
+        Title="CanvasPoints"
+		x:Name="MainWindow_">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -16,21 +17,23 @@
     </Design.DataContext>
 
 	
-		<ItemsControl ItemsSource="{Binding EllipseList}">
-			<ItemsControl.ItemsPanel>
-				<ItemsPanelTemplate>
-					<Canvas/>
+		<ItemsControl ItemsSource="{Binding EllipseList}" >
+			<ItemsControl.ItemsPanel >
+				<ItemsPanelTemplate >
+					<Canvas x:Name="MainCanvas" PointerPressed="CanvasPointerPressed" Background="Transparent"/>
 				</ItemsPanelTemplate>
 			</ItemsControl.ItemsPanel>
 			<ItemsControl.ItemTemplate>
-				<DataTemplate>
-					<Ellipse Fill="#cf060d" Height="30" Width="30"/>
+				<DataTemplate >
+					<Ellipse  Fill="#cf060d" Height="30" Width="30"/>
 				</DataTemplate>
 			</ItemsControl.ItemTemplate>
-			<ItemsControl.Styles>
+			<ItemsControl.Styles >
 				<Style Selector="ContentPresenter" x:DataType="vm:MyEllipse">
 					<Setter Property="Canvas.Left" Value="{Binding PointX}"/>
 					<Setter Property="Canvas.Top" Value="{Binding PointY}"/>
+					
+					
 				</Style>
 			</ItemsControl.Styles>
 		</ItemsControl>
