@@ -25,7 +25,9 @@
 			</ItemsControl.ItemsPanel>
 			<ItemsControl.ItemTemplate>
 				<DataTemplate >
-					<Ellipse  Fill="#cf060d" Height="30" Width="30"/>
+					<Ellipse  Fill="#cf060d" Height="30" Width="30" PointerPressed="Ellipse_PointerPressed"
+                             PointerMoved="Ellipse_PointerMoved"
+                             PointerReleased="Ellipse_PointerReleased"/>
 				</DataTemplate>
 			</ItemsControl.ItemTemplate>
 			<ItemsControl.Styles >

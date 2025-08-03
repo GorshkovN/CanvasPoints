@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CanvasPoints")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a711e6a59a44feabddd725acb0bb6acfacb6329")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6551c8adf837142ffd37eea9ee8e5a693dadc5df")]
 [assembly: System.Reflection.AssemblyProductAttribute("CanvasPoints")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CanvasPoints")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
